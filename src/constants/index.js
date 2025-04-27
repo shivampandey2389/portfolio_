@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 5, suffix: "+", label: "Years of Experience" },
+  { value: 0, suffix: "", label: "Satisfied Clients" },
+  { value: 10, suffix: "+", label: "Completed Projects" },
+  { value: 0, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
@@ -148,41 +148,41 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
+      "I recently built a front-end project using HTML, CSS, JavaScript, and React While working on it, I focused on creating a clean layout, responsive design, and adding interactivity through JavaScript. ",
+    imgPath: "/images/React.png",
+    logoPath: "/images/React.png",
+    title: "Frontend Development",
     date: "January 2023 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+     "In the early stages, I learned HTML, CSS, and JavaScript.",
+    "I built more optimized and scalable websites using these technologies.",
+    "React helped me make components reusable and simplified my development."
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+      "Full-stack website i have mostly using next.js and react with react-router.The website were completely responsive and smooth",
+    imgPath: "/images/Next.js.png",
+    logoPath: "/images/Next.js.png",
     title: "Full Stack Developer",
     date: "June 2020 - December 2023",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "React and React Router have enabled me to develop more diverse, scalable, and optimized websites.",
+"I gained proficiency in MongoDB, allowing me to build robust full-stack web applications.",
+"Additionally, working with Next.js enhanced my ability to structure applications efficiently, offering built-in features like routing, backend integration, and seamless compatibility with Tailwind CSS."
     ],
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
+      "I really enjoyed how React Native makes it easy to build cross-platform apps using JavaScript and React concepts I'm already familiar with. Setting up the project was smooth, and once I got the hang of it, developing features became really efficient.",
+    imgPath: "/images/React.png",
+    logoPath: "/images/React.png",
     title: "React Native Developer",
     date: "March 2019 - May 2020",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Built cross-platform mobile applications using React Native with a single codebase, ensuring high performance and native-like experiences.",
+      "Implemented smooth navigation flows using React Navigation and integrated backend services like MongoDB to create full-featured mobile apps.",
+      "Designed responsive and scalable UI by combining React Native with Tailwind CSS libraries, maintaining visual consistency across different devices.",
     ],
   },
 ];
